@@ -1,7 +1,12 @@
 "use strict";
 
 (function($) {
-
+	///////////////////////////
+	// Preloader
+	$(window).on('load', function() {
+		$("#preloader").delay(600).fadeOut();
+	});
+	
 	///////////////////////////
 	// On Scroll
 	$(window).on('scroll', function() {
