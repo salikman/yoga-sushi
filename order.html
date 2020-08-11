@@ -167,16 +167,12 @@
                                 </div>
 
                                 <div class="shopping-cart__item-quantity">
-                                    <div class="shopping-cart__item-plusminus">
-                                        <button type="button" id="sub" class="sub">
-                                            <img src="img/minus.png">
-                                        </button>
+                                    <div class="shopping-cart__item-plusminus plusminus">
+                                        <button type="button" id="sub" class="sub">-</button>
                                         <input type="text" name="qty" value="0" min="0" max="1000000"
                                             onkeypress="return testKey(event)"
                                             onchange="changeQTY(119,this);return false">
-                                        <button type="button" id="add" class="add">
-                                            <img src="img/plus.png">
-                                        </button>
+                                        <button type="button" id="add" class="add">+</button>
                                     </div>
                                     <div class="shopping-cart__item-price">
                                         <span>180</span>грн
@@ -210,16 +206,12 @@
                                 </div>
 
                                 <div class="shopping-cart__item-quantity">
-                                    <div class="shopping-cart__item-plusminus">
-                                        <button type="button" id="sub" class="sub">
-                                            <img src="img/minus.png">
-                                        </button>
+                                    <div class="shopping-cart__item-plusminus plusminus">
+                                        <button type="button" id="sub" class="sub">-</button>
                                         <input type="text" name="qty" value="0" min="0" max="1000000"
                                             onkeypress="return testKey(event)"
                                             onchange="changeQTY(119,this);return false">
-                                        <button type="button" id="add" class="add">
-                                            <img src="img/plus.png">
-                                        </button>
+                                        <button type="button" id="add" class="add">+</button>
                                     </div>
                                     <div class="shopping-cart__item-price">
                                         <span>180</span>грн
@@ -253,16 +245,12 @@
                                 </div>
 
                                 <div class="shopping-cart__item-quantity">
-                                    <div class="shopping-cart__item-plusminus">
-                                        <button type="button" id="sub" class="sub">
-                                            <img src="img/minus.png">
-                                        </button>
+                                    <div class="shopping-cart__item-plusminus plusminus">
+                                        <button type="button" id="sub" class="sub">-</button>
                                         <input type="text" name="qty" value="0" min="0" max="1000000"
                                             onkeypress="return testKey(event)"
                                             onchange="changeQTY(119,this);return false">
-                                        <button type="button" id="add" class="add">
-                                            <img src="img/plus.png">
-                                        </button>
+                                        <button type="button" id="add" class="add">+</button>
                                     </div>
                                     <div class="shopping-cart__item-price">
                                         <span>180</span>грн
@@ -276,6 +264,7 @@
                     </div>
                 </div>
 
+                <!-- Дополнительные добавки -->
                 <div class="shopping-cart__additionally">
                     <div class="additionally-item">
                         <div class="additionally-item__img">
@@ -283,16 +272,12 @@
                         </div>
                         <div class="additionally-item__text">
                             <div class="additionally-item__title">Васаби</div>
-                            <div class="shopping-cart__item-plusminus">
-                                <button type="button" id="sub" class="sub">
-                                    <img src="img/minus.png">
-                                </button>
+                            <div class="shopping-cart__item-plusminus plusminus">
+                                <button type="button" id="sub" class="sub">-</button>
                                 <input type="text" name="qty" value="0" min="0" max="1000000"
                                     onkeypress="return testKey(event)"
                                     onchange="changeQTY(119,this);return false">
-                                <button type="button" id="add" class="add">
-                                    <img src="img/plus.png">
-                                </button>
+                                <button type="button" id="add" class="add">+</button>
                             </div>
                         </div>
                     </div>
@@ -302,16 +287,12 @@
                         </div>
                         <div class="additionally-item__text">
                             <div class="additionally-item__title">Васаби</div>
-                            <div class="shopping-cart__item-plusminus">
-                                <button type="button" id="sub" class="sub">
-                                    <img src="img/minus.png">
-                                </button>
+                            <div class="shopping-cart__item-plusminus plusminus">
+                                <button type="button" id="sub" class="sub">-</button>
                                 <input type="text" name="qty" value="0" min="0" max="1000000"
                                     onkeypress="return testKey(event)"
                                     onchange="changeQTY(119,this);return false">
-                                <button type="button" id="add" class="add">
-                                    <img src="img/plus.png">
-                                </button>
+                                <button type="button" id="add" class="add">+</button>
                             </div>
                         </div>
                     </div>
@@ -321,21 +302,18 @@
                         </div>
                         <div class="additionally-item__text">
                             <div class="additionally-item__title">Васаби</div>
-                            <div class="shopping-cart__item-plusminus">
-                                <button type="button" id="sub" class="sub">
-                                    <img src="img/minus.png">
-                                </button>
+                            <div class="shopping-cart__item-plusminus plusminus">
+                                <button type="button" id="sub" class="sub">-</button>
                                 <input type="text" name="qty" value="0" min="0" max="1000000"
                                     onkeypress="return testKey(event)"
                                     onchange="changeQTY(119,this);return false">
-                                <button type="button" id="add" class="add">
-                                    <img src="img/plus.png">
-                                </button>
+                                <button type="button" id="add" class="add">+</button>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <!-- Оплата -->
                 <div class="shopping-cart__payment">
                     <div class="shopping-cart__payment-option">
                         <span>Оплата:</span>
@@ -349,11 +327,26 @@
                         </label>
                     </div>
                     <div class="shopping-cart__payment-amount">
-                        <span>Общая сумма к оплате: </span>
-                        <div class="payment-amount__sum"><span>720</span>грн</div>
+                        <div class="general">
+                            <span>Общая сумма к оплате: </span>
+                            <div class="payment-amount__sum"><span>580</span>грн</div>
+                        </div>
+                        <div class="discount">
+                            <span>Скидка: </span>
+                            <div class="payment-amount__sum">-<span>30</span>грн</div>
+                        </div>
+                        <div class="cost-of-delivery">
+                            <span>Стоимость доставки: </span>
+                            <div class="payment-amount__sum"><span>50</span>грн</div>
+                        </div>
+                        <div class="total-payable">
+                            <span>Итог к оплате: </span>
+                            <div class="payment-amount__sum"><span>500</span>грн</div>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Информация о клиенте -->
                 <div class="shopping-cart__filling">
                     <div class="filling">
                         <div class="filling__person">
@@ -364,31 +357,57 @@
                                     <input type="text" placeholder="Телефон" />
                                 </div>
                             </div>
+
                             <div class="filling__delivery">
-                                <span class="filling__title">Адрес доставки</span>
+                                <span class="filling__title">Метод доставки</span>
                                 <div class="filling__delivery-input">
-                                    <input type="text" placeholder="Город" />
-                                    <input type="text" placeholder="Улица" />
-                                    <input type="text" placeholder="Дом" />
-                                    <input type="text" placeholder="Квартира" />
-                                    <input type="text" placeholder="Подьезд" />
-                                    <input type="text" placeholder="Этаж" />
+                                    <select name="" id="">
+                                        <option value="0">Выберите метод доставки...</option>
+                                        <option value="1">Самовывоз (0 грн)</option>
+                                        <option value="2">Доставка (0 грн)</option>
+                                    </select>
+                                    <!-- Самовывоз -->
+                                    <select name="" id="">
+                                        <option value="0">Выберите место самовывоза...</option>
+                                        <option value="1">Київ, Вацлава Гавела, 18, “Бджілка Маркет”</option>
+                                        <option value="2">Ірпінь, Соборна, 146, магазин “Лоток”</option>
+                                        <option value="3">Ірпінь, Соборна, 1-г, “Бджілка Маркет”</option>
+                                        <option value="4">Коцюбинське, Доківська, 14/1, “ФОРА”</option>
+                                    </select>
+                                    <!-- /.Самовывоз -->
+                                    <!-- Доставка -->
+                                    <select name="" id="">
+                                        <option value="0">Выберите место доставки...</option>
+                                        <option value="1">Ирпень</option>
+                                        <option value="2">Буча</option>
+                                        <option value="3">Ворзель</option>
+                                        <option value="4">Гостомель</option>
+                                        <option value="5">Чайка</option>
+                                    </select>
+                                    <input type="text" placeholder="Адрес" />
+                                    <!-- /.Доставка -->
                                 </div>
                             </div>
-                        </div>
-                        <div class="filling__confirmation">
-                            <span class="filling__title">Подтверждение</span>
-                            <div class="filling__confirmation-input">
-                                <label for="confirmation-sms">
-                                    <input type="radio" name="confirmation" id="confirmation-sms" />
-                                    <span>SMS</span>
-                                </label>
-                                <label for="confirmation-call">
-                                    <input type="radio" name="confirmation" id="confirmation-call" />
-                                    <span>Звонок</span>
-                                </label>
+                            <div class="filling__other">
+                                <div class="filling__other-input">
+                                    <input type="text" placeholder="Промокод" />
+                                    <textarea name="" id="" cols="30" rows="10" placeholder="Ваши пожелания и комментарии к заказу"></textarea>
+                                </div>
                             </div>
-                            <input class="filling__confirmation-btn" type="submit" value="Заказать" />
+                            <div class="filling__confirmation">
+                                <span class="filling__title">Подтверждение</span>
+                                <div class="filling__confirmation-input">
+                                    <label for="confirmation-sms">
+                                        <input type="radio" name="confirmation" id="confirmation-sms" />
+                                        <span>SMS</span>
+                                    </label>
+                                    <label for="confirmation-call">
+                                        <input type="radio" name="confirmation" id="confirmation-call" />
+                                        <span>Звонок</span>
+                                    </label>
+                                </div>
+                                <input class="filling__confirmation-btn btn" type="submit" value="Заказать" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -469,16 +488,12 @@
                 <div class="shop-menu__item-info">
                     <div class="shop-menu__item-title">Червоний дракон</div>
                     <div class="shop-menu__item-sum">
-                        <div class="shop-menu__item-plusminus">
-                            <button type="button" id="sub" class="sub">
-                                <img src="img/minus.png">
-                            </button>
+                        <div class="shop-menu__item-plusminus plusminus">
+                            <button type="button" id="sub" class="sub">-</button>
                             <input type="text" name="qty" value="0" min="0" max="1000000"
                                 onkeypress="return testKey(event)"
                                 onchange="changeQTY(119,this);return false">
-                            <button type="button" id="add" class="add">
-                                <img src="img/plus.png">
-                            </button>
+                            <button type="button" id="add" class="add">+</button>
                         </div>
                         <div class="shop-menu__item-price">180 грн</div>
                     </div>
@@ -494,16 +509,12 @@
                 <div class="shop-menu__item-info">
                     <div class="shop-menu__item-title">Червоний дракон</div>
                     <div class="shop-menu__item-sum">
-                        <div class="shop-menu__item-plusminus">
-                            <button type="button" id="sub" class="sub">
-                                <img src="img/minus.png">
-                            </button>
+                        <div class="shop-menu__item-plusminus plusminus">
+                            <button type="button" id="sub" class="sub">-</button>
                             <input type="text" name="qty" value="0" min="0" max="1000000"
                                 onkeypress="return testKey(event)"
                                 onchange="changeQTY(119,this);return false">
-                            <button type="button" id="add" class="add">
-                                <img src="img/plus.png">
-                            </button>
+                            <button type="button" id="add" class="add">+</button>
                         </div>
                         <div class="shop-menu__item-price">180 грн</div>
                     </div>
@@ -564,15 +575,7 @@
 </div>
     <!-- /.Mmenu Basket -->
     <!-- Modal -->
-    <div style="display: none;" id="hidden-content">
-    <div class="container">
-        <form action="https://google.com.ua">
-            <input type="text" name="" id="" placeholder="sss asaa">
-            <input type="tel" name="" id="" placeholder="+382252">
-            <input type="submit" value="privet">
-        </form>
-    </div>
-</div>
+    
     <!-- /.Modal -->
     <!-- JS -->
     <script src="js/libs.min.js"></script>

@@ -1,6 +1,10 @@
 "use strict";
 
 (function($) {
+	
+	$('.resp-accordion').click( () => {
+		alert('hello');
+	})
 	///////////////////////////
 	// Preloader
 	$(window).on('load', function() {
@@ -9,9 +13,9 @@
 	
 	///////////////////////////
 	// On Scroll
-	$(window).on('scroll', function() {
+	$(window).on('scroll load', function() {
 		var wScroll = $(this).scrollTop();
-
+		
 		// Fixed nav
 		wScroll > 1 ? $('#nav').addClass('fixed') : $('#nav').removeClass('fixed');
 	});
