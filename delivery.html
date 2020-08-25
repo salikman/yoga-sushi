@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hello World!</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.14/extensions/themes/mmenu.themes.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.14/mmenu.min.css">
+<link rel="stylesheet" href="css/libs.css">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body class="is-not-home">    
+    <div id="page">
+        <!-- Header -->
+        <header class="header">
+	<div id="nav" class="navbar">
+		<div class="container">
+			<div class="navbar__wrapper">
+
+				<!-- Logo -->
+				<div class="navbar__logo">
+					<a href="/" class="navbar__logo--link">
+						<picture>
+							<source media="(max-width:768px)" srcset="img/logo--white.png">
+							<img src="img/logo.png" alt="Yoga Sushi">
+						</picture>
+					</a>
+				</div>
+
+				<div class="navbar__collapse">
+					<span></span>
+				</div>
+				<!-- navigation -->
+				<div class="navbar__block">
+					<!--  -->
+					<ul class="navbar__menu">
+						<li class="navbar__menu--item active">
+							<a href="#" class="navbar__menu--link">
+								<img src="img/navmenu-1.png" alt="Меню">
+								<span class="txt">Меню</span>
+							</a>
+						</li>
+						<li class="navbar__menu--item">
+							<a href="#" class="navbar__menu--link">
+								<span>Доставка</span>
+							</a>
+						</li>
+						<li class="navbar__menu--item">
+							<a href="#" class="navbar__menu--link">
+								<img src="img/navmenu-2.png" alt="О нас">
+								<span class="txt">О нас</span>
+							</a>
+						</li>
+						<li class="navbar__menu--item">
+							<a href="#" class="navbar__menu--link">
+								<img src="img/navmenu-3.png" alt="Акции">
+								<span class="txt">Акции</span>
+							</a>
+						</li>
+						<li class="navbar__menu--item">
+							<a href="#" class="navbar__menu--link">
+								<img src="img/navmenu-4.png" alt="Контакты">
+								<span class="txt">Контакты</span>
+							</a>
+						</li>
+					</ul>
+					<div class="navbar__lang">
+						<a href="#" class="navbar__lang--link active">RU</a>
+						<a href="#" class="navbar__lang--link">UA</a>
+					</div>
+					<ul class="navbar__shopmenu">
+						<li class="navbar__shopmenu--item">
+							<a href="#" class="navbar__shopmenu--link">
+								<span class="img"><img src="img/img-menu-1.png" alt="Роли"></span>
+								<span class="title">Роли</span>
+							</a>
+						</li>
+						<li class="navbar__shopmenu--item">
+							<a href="#" class="navbar__shopmenu--link">
+								<span class="img"><img src="img/img-menu-2.png" alt="Набори"></span>
+								<span class="title">Набори</span>
+							</a>
+						</li>
+						<li class="navbar__shopmenu--item">
+							<a href="#" class="navbar__shopmenu--link">
+								<span class="img"><img src="img/img-menu-3.png" alt="Макі суші"></span>
+								<span class="title">Макі суші</span>
+							</a>
+						</li>
+						<li class="navbar__shopmenu--item">
+							<a href="#" class="navbar__shopmenu--link">
+								<span class="img"><img src="img/img-menu-4.png" alt="Суші Нігірі"></span>
+								<span class="title">Суші Нігірі</span>
+							</a>
+						</li>
+						<li class="navbar__shopmenu--item">
+							<a href="#" class="navbar__shopmenu--link">
+								<span class="img"><img src="img/img-menu-5.png" alt="Фелікси"></span>
+								<span class="title">Фелікси</span>
+							</a>
+						</li>
+						<li class="navbar__shopmenu--item">
+							<a href="#" class="navbar__shopmenu--link">
+								<span class="img"><img src="img/img-menu-6.png" alt="Сашимі"></span>
+								<span class="title">Сашимі</span>
+							</a>
+						</li>
+					</ul>
+					<div class="navbar__phone">
+						<a class="navbar__phone--link" href="tel:+380635008686">
+							<i class="fa fa-phone"></i>
+							<div>
+								<span class="num">063 500-86-86</span>
+								<span class="txt">Перезвоните мне</span>
+							</div>
+						</a>
+					</div>
+					<div class="navbar__user">
+						<a href="#" class="navbar__user--panel"><i class="fa fa-user"></i>Личный кабинет</a>
+						<a href="#" class="navbar__user--store">
+							<i class="fa fa-map"></i>
+							<div class="txt">
+								Наши точки
+								<span>Найти магазин для самовывоза</span>
+							</div>
+						</a>
+						<a href="#" class="navbar__user--search"><i class="fa fa-search"></i></a>
+					</div>
+				</div>
+				<div class="navbar__shop">
+					<a href="#shop-basket" class="navbar__shop--basket"><i class="fa fa-shopping-basket"></i><span>4</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+        <!-- /.Header -->
+        <!-- Main -->
+        <main>
+            <section class="delivery">
+    <div class="container">
+        <div class="delivery__wrapper">
+            <div class="delivery__text">
+                <h2 class="delivery__title">ДОСТАВКА ПО КИЕВУ, ИРПЕНЮ, БУЧЕ, ГОСТОМЕЛЮ, Р-Н ЧАЙКА</h2>
+                <div class="delivery__description">
+                    <p>Бесплатная доставка: Ирпень, Буча, Гостомель, Ворзель, район Чайка.
+                        с 10-00 до 22-00.</p>
+
+                    <p>Киев, район В. Гавела - доставка Glovo</p>
+                </div>
+            </div>
+
+            <div class="delivery__content">
+                <img src="img/dostavka.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="location">
+    <div class="location__wrapper">
+        <div class="location__point">
+            <div class="container">
+                <div class="location__inner">
+                    <h2 class="location__title">Наши точки: <span>загруженность</span></h2>
+                    <ul class="location__list">
+                        <li>
+                            <div class="location__loc" style="border-color: #ff1f1f;color: #ff1f1f;"><span>1</span></div>
+                            <div class="location__text">
+                                <span class="location__address">Київ, Вацлава Гавела, 18, “Бджілка Маркет”</span>
+                                <span class="location__phone">063-500-86-86</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="location__loc" style="border-color: #ffb320;color: #ffb320;"><span>2</span></div>
+                            <div class="location__text">
+                                <span class="location__address">Ірпінь, Соборна, 146, магазин “Лоток”</span>
+                                <span class="location__phone">095-500-82-82</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="location__loc" style="border-color: #0ed345;color: #0ed345;"><span>3</span></div>
+                            <div class="location__text">
+                                <span class="location__address">Ірпінь, Соборна, 1-г, “Бджілка Маркет”</span>
+                                <span class="location__phone">063-500-81-81</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="location__loc" style="border-color: #0ed345;color: #0ed345;"><span>4</span></div>
+                            <div class="location__text">
+                                <span class="location__address">Коцюбинське, Доківська, 14/1, “ФОРА”</span>
+                                <span class="location__phone">095-500-83-83</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="location__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.4111837602313!2d30.462640215896197!3d50.45206739512916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce823ed35b05%3A0x2272ff3e8150f94!2z0L_RgNC-0YHQvy4g0J_QvtCx0LXQtNGLLCAzMCwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1591696676123!5m2!1sru!2sua" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+</section>
+        </main>
+        <!-- /.Main -->
+        <!-- Footer -->
+        <footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__row">
+                <div class="footer__logo">
+                    <img src="img/logo--white.png" alt="Yoga Sushi">
+                    <span>Доставка от 45 минут,<br>в зависимости от адреса!</span>
+                </div>
+                <nav class="footer__menu">
+                    <a class="footer__menu--link" href="menu/">Меню</a>
+                    <a class="footer__menu--link" href="tochki/">Наши точки</a>
+                    <a class="footer__menu--link" href="dostavka-syshi.html">Доставка</a>
+                    <a class="footer__menu--link" href="akcii.html">Акции</a>
+                    <a class="footer__menu--link" href="lk.html">О нас</a></nav>
+                <div class="footer__location">
+                    <address>ул. Соборная 146, магазин "Лоток"</address>
+                    <address>с. Чайки, остановка "Бударина"</address>
+                </div>
+                <div class="footer__subscription">
+                    <span class="footer__txt">Подпишись чтобы первым узнавать<br>новости и акции</span>
+                    <form>
+                        <input type="email" name="" placeholder="E-mail">
+                        <input type="submit" value="Отправить">
+                    </form>
+                </div>
+                <div class="footer__working">Часы работы магазинов:<br>10:00 – 22:00</div>
+            </div>
+            <div class="footer__row">
+                <div class="footer__reserved">© All Right Reserved. Yoga Sushi</div>
+                <ul class="footer__social">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+        <!-- /.Footer -->
+    </div>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- /Preloader -->
+    <!-- Mmenu Basket -->
+    <!-- mmenu -->
+<div id="shop-basket" class="shop-menu">
+    <div class="shop-menu__wrap">
+        <div class="shop-menu__header">
+            <div class="shop-menu__title">
+                Корзина
+                <span class="shop-menu__quantity">3</span>
+            </div>
+            <div class="shop-menu__clear">
+                <a href="#">Очистить</a>
+            </div>
+        </div>
+        <div class="shop-menu__list">
+            <div class="shop-menu__item">
+                <div class="shop-menu__item-img">
+                    <img src="img/img-1.jpg">
+                </div>
+                <div class="shop-menu__item-info">
+                    <div class="shop-menu__item-title">Червоний дракон</div>
+                    <div class="shop-menu__item-sum">
+                        <div class="shop-menu__item-plusminus plusminus">
+                            <button type="button" id="sub" class="sub">-</button>
+                            <input type="text" name="qty" value="0" min="0" max="1000000"
+                                onkeypress="return testKey(event)"
+                                onchange="changeQTY(119,this);return false">
+                            <button type="button" id="add" class="add">+</button>
+                        </div>
+                        <div class="shop-menu__item-price">180 грн</div>
+                    </div>
+                    <a href="#" class="shop-menu__item-delete">
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            <div class="shop-menu__item">
+                <div class="shop-menu__item-img">
+                    <img src="img/img-1.jpg">
+                </div>
+                <div class="shop-menu__item-info">
+                    <div class="shop-menu__item-title">Червоний дракон</div>
+                    <div class="shop-menu__item-sum">
+                        <div class="shop-menu__item-plusminus plusminus">
+                            <button type="button" id="sub" class="sub">-</button>
+                            <input type="text" name="qty" value="0" min="0" max="1000000"
+                                onkeypress="return testKey(event)"
+                                onchange="changeQTY(119,this);return false">
+                            <button type="button" id="add" class="add">+</button>
+                        </div>
+                        <div class="shop-menu__item-price">180 грн</div>
+                    </div>
+                    <a href="#" class="shop-menu__item-delete">
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="shop-menu__amount">
+            <span>Сумма: </span>
+            <div class="shop-menu__amount-sum">720 грн</div>
+        </div> 
+        <div class="shop-menu__checkout">
+            <div class="shop-menu__checkout-title">Оформления заказа</div>
+            <label for="">
+                <span>Ваше имя</span>
+                <input type="text" name="" id="" placeholder="Иван Иванов">
+            </label>
+            <label for="">
+                <span>Телефон</span>
+                <input type="tel" name="" id="" placeholder="097-123-456-78">
+            </label>
+            <label for="">
+                <span>Промокод</span>
+                <input type="text" name="" id="">
+            </label>
+            <label for="">
+                <span>Метод доставки</span>
+                <select name="" id="">
+                    <option value="0">Выберите метод доставки...</option>
+                    <option value="1">Київ, Вацлава Гавела, 18, “Бджілка Маркет”</option>
+                    <option value="2">Ірпінь, Соборна, 146, магазин “Лоток”</option>
+                    <option value="3">Ірпінь, Соборна, 1-г, “Бджілка Маркет”</option>
+                    <option value="4">Коцюбинське, Доківська, 14/1, “ФОРА”</option>
+                </select>
+            </label>
+            <label for="">
+                <span>Комментарий</span>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ваши пожелания и комментарии к заказу"></textarea>
+            </label>
+            <div class="shop-menu__checkout-confirmation">
+                <span>Подтверждение</span>
+                <div class="shop-menu__checkout-confirmation-input">
+                    <label for="checkout-confirmation-sms">
+                        <input type="radio" name="confirmation" id="checkout-confirmation-sms">
+                        <span>SMS</span>
+                    </label>
+                    <label for="checkout-confirmation-call">
+                        <input type="radio" name="confirmation" id="checkout-confirmation-call">
+                        <span>Звонок</span>
+                    </label>
+                </div>
+                <input class="shop-menu__checkout-confirmation-btn" type="submit" value="Заказать">
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- /.Mmenu Basket -->
+    <!-- Modal -->
+    
+    <!-- /.Modal -->
+    <!-- JS -->
+    <script src="js/libs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.14/mmenu.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.14/core/screenreader/translations/ru.min.js"></script>
+<script src="js/main.js"></script>
+    <!-- /.JS -->
+</body>
+</html>
